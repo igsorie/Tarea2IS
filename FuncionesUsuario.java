@@ -26,6 +26,10 @@ public class funcionesUsuario {
     	}
 	return descuento+usuario.servicio;
    }
+   
+   public void cobroSueldo(Usuario usuario, int servicio){
+		usuario.setSaldo(usuario.getSaldo()+servicio);
+	}
 
 		
 }

@@ -50,4 +50,14 @@ public class Usuario {
 	public int getCantHijos(){
 		return cantHijos;
 	}
+	@Override
+	public boolean equals(Object o){
+		if(this.getCedula()==o.getCedula){
+			return true;
+		}
+		else
+		}
+			return false;
+		}
+	}
 }
